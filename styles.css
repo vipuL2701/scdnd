@@ -21,11 +21,11 @@ header {
   justify-content: space-between;
 }
 .icon {
-    width: 110px; 
-    height: 110px; 
-    background-image: url('./images/logo.png'); 
-    background-size: cover;
-    margin-right: 10px;
+  width: 110px;
+  height: 110px;
+  background-image: url("./images/logo.png");
+  background-size: cover;
+  margin-right: 10px;
 }
 
 header h1 {
@@ -47,36 +47,35 @@ nav ul li a {
   text-decoration: none;
 }
 
-
 .dark-mode {
-    background-color: black;
-    color: white;
-  }
+  background-color: black;
+  color: white;
+}
 button {
-    all: unset;
-    cursor: pointer;
-  }
+  all: unset;
+  cursor: pointer;
+}
 
 @media screen and (max-width: 768px) {
-    .icon {
-        width: 50px; /* Adjust the width of the icon for smaller screens */
-        height: 50px; /* Adjust the height of the icon for smaller screens */
-    }
+  .icon {
+    width: 50px; /* Adjust the width of the icon for smaller screens */
+    height: 50px; /* Adjust the height of the icon for smaller screens */
+  }
 
-    header h1 {
-        font-size: 20px; /* Adjust the font size of the heading for smaller screens */
-    }
+  header h1 {
+    font-size: 20px; /* Adjust the font size of the heading for smaller screens */
+  }
 }
 
 @media screen and (max-width: 480px) {
-    .icon {
-        width: 40px; /* Adjust the width of the icon for even smaller screens */
-        height: 40px; /* Adjust the height of the icon for even smaller screens */
-    }
+  .icon {
+    width: 40px; /* Adjust the width of the icon for even smaller screens */
+    height: 40px; /* Adjust the height of the icon for even smaller screens */
+  }
 
-    header h1 {
-        font-size: 18px; /* Adjust the font size of the heading for even smaller screens */
-    }
+  header h1 {
+    font-size: 18px; /* Adjust the font size of the heading for even smaller screens */
+  }
 }
 .hero {
   background-image: url("your-image-url.jpg");
@@ -113,9 +112,12 @@ button {
 .innovation-level,
 .success-measurement,
 .consultancy-needs {
-  background-color: #fff;
+  background: transparent;
   padding: 50px 20px;
   margin: 20px 0;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
 }
 
 .about h2,
@@ -239,4 +241,7 @@ footer {
   .consultancy-needs p {
     font-size: 14px;
   }
+}
+#recent-launches ul li{
+  list-style-type: none;
 }
