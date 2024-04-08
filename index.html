@@ -13,13 +13,13 @@
       <nav>
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
+          <li><a href="http://127.0.0.1:5500/Navi/about.html">About</a></li>
           <li><a href="#">Services</a></li>
           <li><a href="#">Contact</a></li>
           <button onclick="toggleDarkMode()">
             <svg width="30" height="30" id="light-icon">
               <circle cx="15" cy="15" r="6" fill="currentColor" />
-      
+
               <line
                 id="ray"
                 stroke="currentColor"
@@ -30,7 +30,7 @@
                 x2="15"
                 y2="4"
               ></line>
-      
+
               <use href="#ray" transform="rotate(45 15 15)" />
               <use href="#ray" transform="rotate(90 15 15)" />
               <use href="#ray" transform="rotate(135 15 15)" />
@@ -50,32 +50,46 @@
             </svg>
           </button>
         </ul>
-        
       </nav>
     </header>
 
-    <!-- <section class="hero">
+    <section class="hero">
       <h2>Welcome to SCDN Estates</h2>
       <p>Your trusted partner in real estate solutions.</p>
-      <a id="exlore" class="cta-btn">Explore More</a>
-      <p id="exlore">helo</p>
-    </section> -->
+      <button onclick="myFunction()" id="myBtn exlore" class="cta-btn">
+        Read more
+      </button>
+      <span id="dots"> </span>
+    </section>
+
     <ul class="tilesWrap">
       <li>
         <h2>01</h2>
         <h3>Title 1</h3>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting   
-          industry. Lorem Ipsum has been the industry's standard dummy text ever 
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s.
+          <span id="dots">...</span
+          ><span id="more"
+            >erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices
+            nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue
+            ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum
+            dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare
+            turpis. Donec vitae dui eget tellus gravida venenatis. Integer
+            fringilla congue eros non fermentum. Sed dapibus pulvinar nibh
+            tempor porta.</span
+          >
         </p>
-        <button>Read more</button>
+        <button onclick="myFunction()" id="myBtn exlore" class="cta-btn">
+          Read more
+        </button>
       </li>
       <li>
         <h2>02</h2>
         <h3>Title 2</h3>
         <p>
-          When an unknown printer took a galley of type and scrambled it to make 
+          When an unknown printer took a galley of type and scrambled it to make
           a type specimen book. It has survived not only five centuries.
         </p>
         <button>Read more</button>
@@ -84,7 +98,7 @@
         <h2>03</h2>
         <h3>Title 3</h3>
         <p>
-          But also the leap into electronic typesetting, remaining essentially 
+          But also the leap into electronic typesetting, remaining essentially
           unchanged. It was popularised in the 1960s.
         </p>
         <button>Read more</button>
@@ -93,15 +107,14 @@
         <h2>04</h2>
         <h3>Title 4</h3>
         <p>
-          With the release of Letraset sheets containing Lorem Ipsum passages,  
-          and more recently with desktop publishing software like Aldus PageMaker 
-          including versions of Lorem Ipsum.
+          With the release of Letraset sheets containing Lorem Ipsum passages,
+          and more recently with desktop publishing software like Aldus
+          PageMaker including versions of Lorem Ipsum.
         </p>
         <button>Read more</button>
       </li>
-    </ul
-
-    <section class="about">
+    </ul>
+    <section class="about" id="about">
       <h2>About Us</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
@@ -132,7 +145,7 @@
       <h2>Products & Services</h2>
       <h3>Unique Selling Points or Key Features</h3>
       <h4>WALR BOND</h4>
-      <p> Decentralized Fixed Income-...</p>
+      <p>Decentralized Fixed Income-...</p>
       <!-- Add other product details here -->
     </section>
 
