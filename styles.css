@@ -54,6 +54,7 @@ nav ul li a {
 button {
   all: unset;
   cursor: pointer;
+  border: #252727;
 }
 
 @media screen and (max-width: 768px) {
