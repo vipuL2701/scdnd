@@ -373,3 +373,13 @@ footer {
     font-size: 14px;
   }
 }
+
+#business {
+  text-align: center;
+}
+
+.active {
+  font-weight: bold;
+  color: blue; 
+  text-decoration: underline;
+}

@@ -101,3 +101,9 @@ footer {
     text-align: center;
     padding: 20px;
   }
+
+  .active {
+    font-weight: bold;
+    color: blue; 
+    text-decoration: underline;
+  }

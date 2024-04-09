@@ -99,3 +99,9 @@ footer {
     margin-right: 10px;
   }
 }
+
+.active {
+  font-weight: bold;
+  color: blue; 
+  text-decoration: underline;
+}
