@@ -105,3 +105,6 @@ footer {
   color: blue; 
   text-decoration: underline;
 }
+.active:hover{
+  font-size: 30px;
+}

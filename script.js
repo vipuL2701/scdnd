@@ -1,3 +1,9 @@
+function homeFunction() {
+  window.location.href = "/index.html";
+}
+
+///////////////////////////
+
 const lightIcon = document.getElementById("light-icon");
 const darkIcon = document.getElementById("dark-icon");
 
@@ -25,7 +31,6 @@ function toggleDarkMode() {
   }
 }
 
-
 // ***********
 function myFunction() {
   var dots = document.getElementById("dots");
@@ -34,23 +39,24 @@ function myFunction() {
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";
-    btnText.innerHTML = "Read more"; 
+    btnText.innerHTML = "Read more";
     moreText.style.display = "none";
   } else {
     dots.style.display = "none";
-    btnText.innerHTML = "Read less"; 
+    btnText.innerHTML = "Read less";
     moreText.style.display = "inline";
   }
 }
 
 // ????????????????????????LoginJS
 
-const switchers = [...document.querySelectorAll('.switcher')]
+const switchers = [...document.querySelectorAll(".switcher")];
 
-switchers.forEach(item => {
-	item.addEventListener('click', function() {
-		switchers.forEach(item => item.parentElement.classList.remove('is-active'))
-		this.parentElement.classList.add('is-active')
-	})
-})
-
+switchers.forEach((item) => {
+  item.addEventListener("click", function () {
+    switchers.forEach((item) =>
+      item.parentElement.classList.remove("is-active")
+    );
+    this.parentElement.classList.add("is-active");
+  });
+});
